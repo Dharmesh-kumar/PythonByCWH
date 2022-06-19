@@ -1,0 +1,23 @@
+Meta characters:
+[]  A set of characters
+\   Signals a special sequence  (can also be used to escape special characters)
+.   Any character (except newlines characters)
+^   starts with
+$   Ends with
+*   Zero or more occurrences
++   one or more occurrences
+{}  Exactly the specified number of occurrences
+|   Either or
+()  capture and group
+
+special Sequences:
+\A Returns a match if the specifies characters are at the beginning of the string
+\b returns a match where the specified characters are at the beginning or at the end of a word
+\B Returns a match where the specified characters are present , but NOT at the beginning (or at the end ) of a word
+\d Returns a match at the string contains digits (from 0-9)
+\D returns a match where the string doEs noT contain digits
+\s returns a match where the string contains a white space character(any space occur from the spacebar and ener which create an extra empty space)
+\S returns a match where the string DOES NOT contain a white space character
+\w returns a match where the string contains any word character(from a to Z, digits from 0-9 , and the underscore_character)
+\W returns a match where the string DOES NOT contain any word characters
+\Z returns a match if the specified characters are at the end of the string
